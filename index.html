@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="header-left">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">MENUS</a></li>
+                    <li><a href="#">ORDER</a></li>
+
+                </ul>
+
+            </section>
+
+            <section class="logo">
+                <img src="images/restaurant-logo-2.png">
+            </section>
+
+            <section class="header-right">
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">RESERVE</a></li>
+                    <li><a href="#">MORE</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <div>
+        <nav>
+            <section class="foodpic">
+                <img src="./images/burger.jpg">
+                <button type="button" class="my-button" onclick="Addtocart()">Add to Cart</button>
+                <span id="cartcount">0</span>
+            </section>
+        </nav>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
