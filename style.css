@@ -112,7 +112,7 @@ nav .header-right{
 
 div{
     border: 2px solid;
-    height: 100vh;
+    /* height: 100vh; */
     background: url(./images/gray.jpg);
     background-size: cover;
     border: 15px solid white;
@@ -122,9 +122,9 @@ nav .foodpic{
     /* border: 2px solid blue; */
     width: 30%;
     height: 300px;
-    position: absolute;
-    right: 67%;
-    top: 72%
+    /* position: absolute; */
+    /* right: 67%; */
+    /* top: 72% */
 }
 
 .foodpic img{
